@@ -1,0 +1,28 @@
+
+$rowWidth: 960px; // 每行寬度。
+$stepWidth: 60px;// 每次改變寬度。
+$pText: 20px; // p 文字大小設定。
+
+.row {
+    width: $rowWidth;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p {
+    font-size: $pText;
+    border: 0.677px solid #666;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 8px;
+    margin-left: 9px;
+    margin-bottom: 30px;
+}
+
+@for $i from 0 to 12 {
+    .start-box-#{$i+1} {
+      width: $rowWidth - $pText * ($i+1) - $stepWidth * $i;
+    }
+}

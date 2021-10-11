@@ -1,0 +1,52 @@
+body {
+  background: #123;
+  color: #333;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+
+h1 {
+  font-size: 42px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-top: 20px;
+  text-align: center;
+  color: #f00;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+
+
+.container_12,
+.container_16,
+.container_24 {
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.container_12 {
+  background-image: url(../img/12_col.gif);
+}
+
+.container_16 {
+  background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+  background-image: url(../img/24_col.gif);
+}
