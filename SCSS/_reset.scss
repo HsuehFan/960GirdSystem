@@ -52,6 +52,10 @@ table {
 	border-spacing: 0;
 }
 
-*,*::before,*::after {
-	box-sizing: content-box;
+html {
+	box-sizing: border-box;
+}
+
+*, *::before,*::after {
+	box-sizing: inherit;
 }

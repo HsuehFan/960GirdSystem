@@ -1,0 +1,11 @@
+.container {
+    width: 100vw;
+}
+
+.box1 {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    background-color: blue;
+}
